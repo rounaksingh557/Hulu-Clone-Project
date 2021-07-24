@@ -379,11 +379,28 @@ h4 {
   display: block;
 }
 
+.live-box {
+  height: 811px;
+  width: 2076px;
+  margin: 0 187px 0 187px;
+  padding: 60px 0 190px 0;
+  max-height: 811px;
+  max-width: 976px;
+}
+
 .live-sports-content {
+  margin-top: 20px;
+  margin-right: 50px;
   position: absolute;
-  top: 160px;
-  left: 100px;
+  /* top: 160px;
+  left: 100px; */
   max-width: 550px;
+  height: 388px;
+  width: 976px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  transition: all 0.6s ease 0s;
+  outline: rgb(60, 39, 40) dashed 0px;
+  box-sizing: border-box;
 }
 
 .live-sports-logos {
